@@ -14,6 +14,19 @@ iOS App programmed in Swift that records the voice conversation of two people an
 
 * Complete an entire iOS application from start to finish using the Model-View-Controller (MVC) Software Architecture, which allows for separation of concerns and division of responsibilities on a project.
 
+## Phase 1: XCode Storyboard
+To start this application, we want to get our Controllers (Application Logic) and Views (User Interface) prototype working before we work with any Model data. 
+* Controllers: ViewController - handle touch events, user interaction from Views
+* Views: View - can use built-in components from XCode (Autolayout)
+    * UIView
+    * UILabel
+    * UIButton
+
+The ```Main.storyboard``` is where I will design and setup the entire user interface.
+Right now, there is only one interface - ViewController. This is the initial ViewController
+that loads upon starting the application.
+
+
 ### License Information
 
 ```
