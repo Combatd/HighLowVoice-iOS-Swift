@@ -16,15 +16,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Di-dk-Sct">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Di-dk-Sct">
                                 <rect key="frame" x="167" y="425" width="80" height="47"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.25229725049271856" green="1" blue="0.11133959660678439" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Record"/>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="4Di-dk-Sct" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="381" id="5QN-iu-Sn3"/>
+                            <constraint firstItem="4Di-dk-Sct" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="167" id="9Oh-wW-IL3"/>
+                            <constraint firstItem="4Di-dk-Sct" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FaS-a0-WbY"/>
+                            <constraint firstItem="4Di-dk-Sct" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="QGQ-FB-XFm"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
