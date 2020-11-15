@@ -26,6 +26,12 @@ The ```Main.storyboard``` is where I will design and setup the entire user inter
 Right now, there is only one interface - ViewController. This is the initial ViewController
 that loads upon starting the application.
 
+On the ```Main.storyboard```, I want to ensure that the ```Record``` UIButton is always responsive to the screen size of the user's device, whether on an iPhone or iPad. I will add two Constraints, ```CenterX``` and ```CenterY```, to scale the X and Y coordinate values of ```Record``` UIButton on the ```Safe Area``` Canvas.
+
+After testing the Screen Responsiveness in the XCode iOS Simulator, now we need to make sure the button can call upon a function upon being pressed. 
+I created an ```@IBAction``` of ```func recordAudio```, then added a "button pressed" message printing to the console to ensure that the
+function was successfully called upon a button pressed state (successful debugging!). 
+
 
 ### License Information
 
