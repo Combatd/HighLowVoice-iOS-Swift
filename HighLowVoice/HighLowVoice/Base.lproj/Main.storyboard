@@ -20,6 +20,9 @@
                                 <rect key="frame" x="182.5" y="438" width="49" height="30"/>
                                 <color key="backgroundColor" red="0.25229725049271856" green="1" blue="0.11133959660678439" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Record"/>
+                                <connections>
+                                    <action selector="recordAudio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GFV-WQ-EP9"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
